@@ -40,3 +40,15 @@ html, body {
 body {
 	background: #eee;
 }
+
+.wrapper {
+	width: 90%;
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+header {
+	border: 3px solid #333;
+	border-radius: 20px;
+	text-align: center;
+}
