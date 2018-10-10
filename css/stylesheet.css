@@ -39,6 +39,7 @@ html, body {
 
 body {
 	background: #eee;
+	font-family: 'Raleway', sans-serif;
 }
 
 .wrapper {
@@ -48,7 +49,7 @@ body {
 }
 
 header {
-	border: 3px solid #333;
+	border: 3px solid #777;
 	border-radius: 20px;
 	display: flex;
 	justify-content: center;
@@ -60,7 +61,7 @@ h1 {
   margin: 0;
   line-height: 1.4;
   padding: 20px 0;
-  background-image: -webkit-gradient(linear,0% 60%, 60% 100%,from(#c0392b),to(#8e44ad));
+  background-image: -webkit-gradient(linear,0% 25%, 25% 100%,from(#e96443),to(#904e95));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
