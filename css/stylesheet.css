@@ -48,12 +48,27 @@ body {
 	margin: 0 auto;
 }
 
-header {
+header, nav, footer {
 	border: 3px solid #777;
 	border-radius: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #85458A;
+	font-size: 1.2em;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Header */
+
+header {
 	display: flex;
 	justify-content: center;
-	margin-top: 2em;
+	margin: 2em 0;
 }
 
 h1 {
@@ -64,4 +79,22 @@ h1 {
   background-image: -webkit-gradient(linear,0% 25%, 25% 100%,from(#e96443),to(#904e95));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* Nav */
+
+nav ul {
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav ul li {
+	text-align: center;
+	flex: 3;
+}
+
+.social {
+	flex: 1;
 }
