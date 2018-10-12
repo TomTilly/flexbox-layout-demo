@@ -49,7 +49,7 @@ body {
 	margin: 0 auto;
 }
 
-header, nav, footer, aside{
+header, nav, footer {
 	border: 3px solid #777;
 	border-radius: 20px;
 }
@@ -64,6 +64,11 @@ nav a, footer a{
 nav a:hover, footer a:hover {
 	text-decoration: underline;
 	opacity: 1;
+}
+
+p {
+	line-height: 1.5;
+	margin: 1rem 0;
 }
 
 /* Header */
@@ -146,7 +151,7 @@ article h2 {
 }
 
 article h2 a {
-	color: #565656;
+	color: #85458A;
 	text-decoration: none;
 }
 
@@ -159,13 +164,33 @@ article hr {
     padding: 0; 
 }
 
-article p {
-	line-height: 1.5;
-	margin: 1rem 0;
-}
 
 /* Sidebar */
 
 aside {
 	flex-basis: 25%;
+}
+
+aside h2 {
+	background-color: #85458A;
+	color: white;
+	padding: .5em .5em;
+	margin: 0;
+}
+
+aside ul {
+	margin-top: 1rem;
+}
+
+aside li {
+	margin: 1em 0;
+}
+
+aside a {
+	color: #85458A;
+	text-decoration: none;
+}
+
+aside p {
+	padding: 0 1rem;
 }
