@@ -40,27 +40,28 @@ html, body {
 body {
 	background: #eee;
 	font-family: 'Raleway', sans-serif;
+	font-size: 1.125em;
 }
 
 .wrapper {
 	width: 90%;
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
-header, nav, footer {
+header, nav, footer, aside{
 	border: 3px solid #777;
 	border-radius: 20px;
 }
 
-a {
+nav a, footer a{
 	text-decoration: none;
 	color: #85458A;
 	font-size: 1.2em;
 	opacity: .8;
 }
 
-a:hover {
+nav a:hover, footer a:hover {
 	text-decoration: underline;
 	opacity: 1;
 }
@@ -85,6 +86,10 @@ h1 {
 
 /* Nav */
 
+nav {
+	margin: 2em 0;
+}
+
 nav ul {
 	padding: 0;
 	list-style-type: none;
@@ -101,5 +106,66 @@ nav ul li {
 	flex: 1;
 }
 
-.social:hover {
+/* Main */
+
+main {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Blog Snippets */
+
+.blog-snippets {
+	flex-basis: 75%;
+	display: flex;
+	justify-content: space-around;
+}
+
+article {
+	flex-basis: 50%;
+	padding: 0 2em
+}
+
+figure {
+	height: 200px;
+	overflow: hidden;
+	margin: 0;
+}
+
+figure img {
+	max-width: 100%;
+}
+
+figure img:hover {
+	opacity: .9;
+}
+
+article h2 {
+	font-weight: bold;
+	margin: 1rem 0;
+}
+
+article h2 a {
+	color: #565656;
+	text-decoration: none;
+}
+
+article hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0;
+    padding: 0; 
+}
+
+article p {
+	line-height: 1.5;
+	margin: 1rem 0;
+}
+
+/* Sidebar */
+
+aside {
+	flex-basis: 25%;
 }
