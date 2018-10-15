@@ -314,6 +314,22 @@ footer div {
 		margin: .5em 0 0;
 	}
 
+	footer {
+		flex-direction: column;
+	}
+
+	footer ul {
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+
+	footer ul li {
+		padding: 1em 0;
+	}
+
+	.copyright {
+		padding: 1em 0;
+	}
 }
 
 @media (max-width: 576px) {
